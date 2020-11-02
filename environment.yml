@@ -1,0 +1,14 @@
+name: jupyter-lab
+channels:
+ - coecms
+ - conda-forge
+ - defaults
+dependencies:
+ - python>=3.8
+ - jupyterhub
+ - jupyterhub-base
+ - requests
+ - yaml
+ - pip
+ - pip:
+    - batchspawner
