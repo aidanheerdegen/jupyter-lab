@@ -11,4 +11,4 @@ dependencies:
  - yaml
  - pip
  - pip:
-    - batchspawner
+     - git+https://github.com/jupyterhub/batchspawner.git
